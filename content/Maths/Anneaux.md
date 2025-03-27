@@ -14,7 +14,6 @@
 >    $$ x \cdot (y + z) = x \cdot y + x \cdot z $$
 >    $$ (x + y) \cdot z = x \cdot z + y \cdot z $$
 > pour tous $x,y,z \in A$.
-> 
 > Si de plus la loi $\cdot$ est commutative on dit que $A = (A, +, \cdot)$ est un **anneau commutatif**.
 
 ^fb6a8d
@@ -41,8 +40,11 @@
 
 > [!Expl]+ Exemples d’*unité d’anneaux* : 
 > $$U(\mathbb{Z})=\{ -1,1 \}$$
+> 
 > $$U(\mathbb{Q})=\mathbb{Q}^{*}$$
+> 
 > $$U(\mathbb{Z}/n\mathbb{Z})=(\mathbb{Z}/n\mathbb{Z})^{\times}$$
+> 
 > $$U(M_{n}(\mathbb{R}))=GL(n,\mathbb{R})$$
 
 ^53262e
