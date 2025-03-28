@@ -23,3 +23,46 @@ stateDiagram-v2
 		Respire_? --> Test
 ```
 
+
+
+
+```mermaid
+%%{init: {"quadrantChart": {"chartWidth": 400, "chartHeight": 400}, "themeVariables": {"quadrant1TextFill": "#ff0000"} }}%%
+		quadrantChart
+		  x-axis Urgent --> Not Urgent
+		  y-axis Not Important --> "Important ❤"
+		  quadrant-1 Plan
+		  quadrant-2 Do
+		  quadrant-3 Delegate
+		  quadrant-4 Delete
+
+```
+
+
+```mermaid
+graph TD;
+    A[Test] -->| | B[Résultat];
+    A -->| | C[Mauvais résultat];
+
+```
+
+
+```mermaid
+mindmap
+	root((mindmap))
+		Origins
+			Long history
+			::icon(fa fa-book)
+			Popularisation
+				British popular psychology author Tony Buzan
+		Research
+			On effectiveness<br/>and features
+			On Automatic creation
+				Uses
+					Creative techniques
+					Strategic planning
+					Argument mapping
+		Tools
+			Pen and paper
+			Mermaid
+```
