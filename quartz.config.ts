@@ -73,7 +73,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+  filters: [Plugin.RemoveDrafts(), Plugin.ExplicitPublish()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
@@ -85,8 +85,8 @@ const config: QuartzConfig = {
         enableRSS: true,
       }),
       Plugin.Assets(),
-      Plugin.Static(),
-      Plugin.ExplicitPublish(),
+  Plugin.Static(),
+  // ...existing code...
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages()
